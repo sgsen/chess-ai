@@ -1,6 +1,7 @@
 [tool.poetry]
 name = "chess-ai"
 version = "0.1.0"
+packages = [{include = "src"}]
 description = ""
 authors = ["sgsvaya <93988228+sgsvaya@users.noreply.github.com>"]
 readme = "README.md"
@@ -15,4 +16,3 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 
-packages = [{include = "*", from="src"}]
